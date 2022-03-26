@@ -95,8 +95,14 @@ button {
     font-size: 18px;
     line-height: 25px;
 }
-
-.header-container-content {
+.instagram {
+    transform: rotate(-90deg);
+}
+.twitter {
+    transform: rotate(-90deg);
+}
+.Facebook {
+    transform: rotate(-90deg);
 }
 .hcc-name {
     display: flex;
