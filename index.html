@@ -15,37 +15,38 @@
 </head>
 <body>
     <header>   
-        <section class="background">
-            <div class="mid header">
-                <p class="logo">QWERy</p>
-                <nav>
-                    <ul class="navigation-desktop">
-                        <li><a href="#"><p>Information</p></a></li>
-                        <li><a href="#"><p>About us</p></a></li>
-                        <li><a href="#"><p>Culture</p></a></li>
-                    </ul>
-                </nav>
-                <div class="header-search">
-                    <form>
-                        <button type="submit"><img src="/img/search.svg" alt="Search"></button>
-                        <input type="text" placeholder="Search">
-                    </form>
-                </div>
+        <div class="background">
+            <div class="overlay"></div>
+            <div class="overlay1"></div>
+        </div>
+        <div class="mid header">
+            <p class="logo">QWERy</p>
+            <nav>
+                <ul class="navigation-desktop">
+                    <li><a href="#"><p>Information</p></a></li>
+                    <li><a href="#"><p>About us</p></a></li>
+                    <li><a href="#"><p>Culture</p></a></li>
+                </ul>
+            </nav>
+            <div class="header-search">
+                <form>
+                    <button class="btn-top" type="submit"><img src="/img/search.svg" alt="Search"></button>
+                    <input type="text" placeholder="Search">
+                </form>
             </div>
-        </section>
-        
+        </div>
     </header>
     <main>
         <section>
             <div class="mid">
-                <div class="social">
+                <nav class="social">
                     <ul class="nav-social">
                         <li class="li-social"><a href="#" class="Follow">Follow us</a></li>
                         <li class="li-social"><a href="#" class="social"></a><img src="./img/instagram.svg" alt="instagram"></li>
                         <li class="li-social"><a href="#" class="social"><img src="./img/twiter.svg" alt="twitter"></a></li>
                         <li class="li-social"><a href="#" class="social"><img src="./img/facebook.svg" alt="facebook"></a></li>
                     </ul>
-                </div>
+                </nav>
                 <div class="title-container">
                     <div class="tagline">
                         <div class="line"></div>
@@ -64,7 +65,7 @@
         </section>
         <section>
             <div class="mid row">
-                <img class="img-left" src="./img/image 1.svg" alt="mount">
+                <img class="img-left" src="./img/image1.svg" alt="mount">
                 <div class="container-Heve-you">
                     <div class="tagline">
                         <div class="line"></div>
@@ -76,7 +77,7 @@
                     <p>You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
                     <div class="more">
                         <a href="#"><p class="more-text">read more</p></a>
-                        <img class="arrow-right" src="./img/arrow col.svg" alt="arrow">
+                        <img class="arrow-right" src="./img/arrowcol.svg" alt="arrow">
                     </div>
                 </div>
             </div>
@@ -97,12 +98,12 @@
                 <p class="mid-column">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
                 <div class="more">
                     <a href="#"><p class="more-text">read more</p></a>
-                    <img class="arrow-right" src="./img/arrow col.svg" alt="arrow">
+                    <img class="arrow-right" src="./img/arrowcol.svg" alt="arrow">
                 </div>
             </div>
         </section>
         <section>
-            <div class="mid row">
+            <div class="mid culture">
                 <div class="container-Heve-you">
                     <div class="tagline">
                         <div class="line"></div>
@@ -114,7 +115,7 @@
                     <p>known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</p>
                     <div class="more">
                         <a href="#"><p class="more-text">read more</p></a>
-                        <img class="arrow-right" src="./img/arrow col.svg" alt="arrow">
+                        <img class="arrow-right" src="./img/arrowcol.svg" alt="arrow">
                     </div>
                 </div>
                 <img class="img-left" src="./img/01.png" alt="mount">
@@ -131,7 +132,7 @@
                         <a href="#" class="btn"><p style="color: black;">Get started</p></a>
                     </div>
                 </div>
-                <div class="line-bottom"></div>
+                <hr class="line-bottom">
                 <div class="bottom-container">
                     <div class="bottom-search">
                             <p class="bottom-search-text">Let's go on vacation,</p>
@@ -143,62 +144,55 @@
                                     <img src="/img/Path.svg" alt="img">
                                 </button>
                             </form>
-                            <div class="line-emal"></div>
+                            <hr class="line-email">
                         </div>
                     </div>
-                    <div class="other">
-                        <div class="Services">
-                            <p class="colum-name">Services</p>
-                            <a class="footer-item" href="#">Email Marketing</a>
-                            <a class="footer-item" href="#">Campaigns</a>
-                            <a class="footer-item" href="#">Branding</a>
-                            <a class="footer-item" href="#">Offline</a>
-                        </div>
-                        <div class="Services">
-                            <p class="colum-name">Adout</p>
-                            <a class="footer-item" href="#">Our Story</a>
-                            <a class="footer-item" href="#">Benefits</a>
-                            <a class="footer-item" href="#">Team</a>
-                            <a class="footer-item" href="#">Careers</a>
-                        </div>
-                        <div class="Services">
-                            <p class="colum-name">Help</p>
-                            <a class="footer-item" href="#">FAQs</a>
-                            <a class="footer-item" href="#">Contact Us</a>
-                        </div>
+                    <div class="navigation-bottom">
+                        <nav class="Services">
+                            <ul class="services-items">
+                                <li><p class="services-title">Services</p></li>
+                                <li><a class="services-text" href="#">Email Marketing</a></li>
+                                <li><a class="services-text" href="#">Campaigns</a></li>
+                                <li><a class="services-text" href="#">Branding</a></li>
+                                <li><a class="services-text" href="#">Offline</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="Services">
+                            <ul class="services-items">
+                                <li><p class="services-title">Adout</p></li>
+                                <li><a class="services-text" href="#">Our Story</a></li>
+                                <li><a class="services-text" href="#">Benefits</a></li>
+                                <li><a class="services-text" href="#">Team</a></li>
+                                <li><a class="services-text" href="#">Careers</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="Services">
+                            <ul class="services-items">
+                                <li><p class="services-title">Help</p></li>
+                                <li><a class="services-text" href="#">FAQs</a></li>
+                                <li><a class="services-text" href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
         </section>
-
-
-        <!-- 
-            <footer>
-                
-                <div class="footer-row-bottom">
-                    <div class="footer-info">
-                        <div class="info-item">
-                            <u>Terms & Conditions</u>
-                        </div>
-                        <div class="info-item">
-                            <u>Privacy Policy</u>
-                        </div>
-                    </div>
-                    <div class="social-footer">
-                        <div class="instagram-footer">
-                            <a href="#"><img src="./img/instagram.svg" alt=""></a>
-                        </div>
-                        <div class="twitter-footer">
-                            <a href="#"><img src="./img/twiter.svg" alt=""></a>
-                        </div>
-                        <div class="Facebook-footer">
-                            <a href="#"><img src="./img/facebook.svg" alt=""></a>
-                        </div>
-                    </div>
+        <footer>
+            <div class="mid footer">
+                <div class="Privacy-Policy">
+                    <p class="Copyright-text">Terms & Conditions</p>
+                    <p class="Copyright-text">Privacy Policy</p>
                 </div>
-                <div class="Copyright">Copyright 2021 QWERy</div>
-            </footer>
-        </div> -->
+                <nav>
+                    <ul class="bottom-social">
+                        <li><a href="#" class="social"></a><img src="./img/instagram.svg" alt="instagram"></li>
+                        <li><a href="#" class="social"><img src="./img/twiter.svg" alt="twitter"></a></li>
+                        <li><a href="#" class="social"><img src="./img/facebook.svg" alt="facebook"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="Copyright"><p class="Copyright-text">Copyright 2021 QWERy</p></div>
+        </footer>
     </main>
 </body>
 </html>

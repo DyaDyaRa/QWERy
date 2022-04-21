@@ -50,6 +50,10 @@ input {
 input::-webkit-input-placeholder {
     color: #FFFFFF;
 }
+.btn-top {
+    background: transparent;
+    border: none;
+}
 
 /* header */
 
@@ -76,6 +80,24 @@ input::-webkit-input-placeholder {
     background-image: url(../img/fon.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10;
+}
+.overlay {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%);
+}
+.overlay1 {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    top: 1215px;
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 77.78%);
 }
 .navigation-desktop {
     display: flex;
@@ -139,6 +161,7 @@ main{
 .row {
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 731px;
 }
 .img-left {
     width: 43%;
@@ -169,6 +192,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 41px 0;
+    margin-top: 250px;
 }
 .mid-column {
     text-align: center;
@@ -181,9 +205,15 @@ main{
     align-self: center;
 }
 
+.culture {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 220px;
+}
 
 .bottom {
     flex-direction: column;
+    margin-top: 250px;
 }
 .bottom-logo-btn {
     flex-direction: row;
@@ -213,7 +243,7 @@ main{
     background: #FFFFFF;
     opacity: 0.3;
     height: 1px;
-    margin-top: 47px;
+    margin: 47px 0 90px 0;
 }
 
 .bottom-container {
@@ -227,17 +257,25 @@ main{
     flex-direction: column;
 }
 .email {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.email-input {
-}
 .email-btn {
+    background: #FFA343;
+    border-radius: 8px 8px 0px 0px;
+    width: 69px;
+    height: 69px;
+    border: none;
 }
-.line-emal {
+.email-input {
+    width: 100%;
+}
+.line-email {
     background: #FFFFFF;
     opacity: 0.3;
     height: 1px;
+    width: 100%;
 }
 
 .bottom-search-text {
@@ -249,18 +287,16 @@ main{
     letter-spacing: -0.3px;
     color: #FFFFFF;
 }
-.other {
+.navigation-bottom {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
 }
-.Services {
-    flex-direction: column;
-}
-.Services > * + * {
+
+.services-items > * + * {
     margin-top: 45px;
 }
-.colum-name {
+.services-title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -269,11 +305,41 @@ main{
     letter-spacing: -0.231818px;
     color: #FFD1A0;
 }
-.footer-item {
+.services-text {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
     line-height: 0px;
     color: #FFFFFF;
+}
+.footer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 137px;
+}
+.bottom-social {
+    display: flex;
+    flex-direction: row;
+}
+.bottom-social > * + * {
+    margin-left: 50px;
+}
+
+.Copyright {
+    justify-content: center;
+    align-items: center;
+    margin: 160px 0 120px 0;
+}
+.Privacy-Policy > * + * {
+    margin-left: 20px;
+}
+.Copyright-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
 }
